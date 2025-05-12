@@ -1,0 +1,68 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.pnp/
+.pnp.js
+
+# Build outputs
+/client/dist/
+/client/build/
+/frontend/build/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Python / ML model specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# ML model files (these should be generated, not stored in git)
+*.pkl
+*.csv
+*.png
+
+# PDF documents (as mentioned)
+*.pdf
+
+# MongoDB data
+/data/db/
+/mongodb/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Specific project files mentioned
+Group4_102303286_102303282__.pdf
